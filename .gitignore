@@ -9,6 +9,5 @@
 **/dist/
 **/build/
 
-# Generated academic network artifacts and source dataset
+# Generated academic network artifacts
 AI-Powered Academic Collaboration Network/artifacts/
-AI-Powered Academic Collaboration Network/scopus_data_updated.csv
