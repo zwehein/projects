@@ -1,25 +1,25 @@
 # Projects
 
-A collection of four projects exploring data science, system reliability, game development, and mobile application development.
+A portfolio of software projects spanning research discovery, system reliability, game development, and mobile applications.
 
 ## Projects
 
-### [AI-Powered Academic Collaboration Network](AI-Powered%20Academic%20Collaboration%20Network/README.md)
-An interactive research collaboration explorer that builds a co-author graph from Scopus records and uses text embeddings to surface related researchers.
+### [AI-Powered Academic Collaboration Network](https://github.com/zwehein/ai-powered-academic-collaboration-network)
+Explore co-author connections and discover related researchers from Scopus publication records.
 
 **Stack:** Python, NetworkX, Streamlit, sentence-transformers, scikit-learn
 
-### [Automated Workspace Synchronization & Recovery System](Automated%20Workspace%20Synchronization%20%26%20Recovery%20System%28ASR%29/README.md)
-A Python command-line tool for scheduled workspace mirroring, rotating backups, and manual recovery operations.
+### [Automated Workspace Synchronization & Recovery System](https://github.com/zwehein/automated-workspace-sync-recovery-system)
+Schedule workspace mirroring and backups, then browse or restore saved copies from a command-line menu.
 
 **Stack:** Python, pathlib, shutil, schedule, threading
 
-### [Blackjack 2.0](Blackjack%202.0/README.md)
-A JavaFX blackjack game with animated cards, a dealer, and player power-ups.
+### [Blackjack 2.0](https://github.com/zwehein/blackjack-2-0)
+A JavaFX blackjack game with animated cards and player power-ups.
 
 **Stack:** Java 17, JavaFX 21, Maven
 
-### [Dorm Match (Roomie)](Dorm%20Match/README.md)
-A roommate-finding mobile app with an Expo frontend and Flask/MySQL API.
+### [Dorm Match (Roomie)](https://github.com/zwehein/dorm-match)
+A roommate-finding mobile app backed by a Flask API and MySQL.
 
 **Stack:** React Native, Expo, TypeScript, Flask, MySQL, Docker
