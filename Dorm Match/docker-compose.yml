@@ -1,0 +1,48 @@
+services:
+  db:
+    image: mysql:8.0
+    ports:
+      - "13307:3306"
+    environment:
+      MYSQL_DATABASE: roomie
+      MYSQL_USER: roomie
+      MYSQL_PASSWORD: roomie_dev
+      MYSQL_ROOT_PASSWORD: root_dev
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./backend/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot_dev"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  backend:
+    build: ./backend
+    ports:
+      - "5001:5001"
+    environment:
+      MYSQL_HOST: db
+      MYSQL_PORT: 3306
+      MYSQL_USER: roomie
+      MYSQL_PASSWORD: roomie_dev
+      MYSQL_DATABASE: roomie
+      FLASK_PORT: 5001
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend/uploads:/app/uploads
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8081:8081"
+    environment:
+      EXPO_PUBLIC_API_URL: http://localhost:5001
+    depends_on:
+      - backend
+
+volumes:
+  mysql_data:

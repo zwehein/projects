@@ -1,0 +1,14 @@
+# Local environment and generated files
+**/.env
+**/__pycache__/
+**/*.py[cod]
+**/node_modules/
+**/target/
+**/.expo/
+**/.next/
+**/dist/
+**/build/
+
+# Generated academic network artifacts and source dataset
+AI-Powered Academic Collaboration Network/artifacts/
+AI-Powered Academic Collaboration Network/scopus_data_updated.csv

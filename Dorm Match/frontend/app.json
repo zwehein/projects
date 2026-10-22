@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "DormMatch",
+    "slug": "dormmatch",
+    "version": "1.0.0",
+    "scheme": "dormmatch",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#FDF7F9"
+    },
+    "ios": { "supportsTablet": false },
+    "android": { "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#FDF7F9" } },
+    "web": { "bundler": "metro", "output": "single-page" },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true }
+  }
+}
