@@ -24,6 +24,6 @@ A roommate-finding mobile app backed by a Flask API and MySQL.
 
 **Stack:** React Native, Expo, TypeScript, Flask, MySQL, Docker
 ### [Escape Plan](https://github.com/zwehein/escape-plan)
-A multiplayer browser game with real-time play and an admin dashboard.
+A multiplayer browser game hosted on AWS EC2, with real-time play and an admin dashboard.
 
-**Stack:** TypeScript, React, Vite, Node.js, Socket.IO
+**Stack:** TypeScript, React, Vite, Node.js, Socket.IO, AWS EC2, AWS Systems Manager
