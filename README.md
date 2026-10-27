@@ -23,3 +23,7 @@ A JavaFX blackjack game with animated cards and player power-ups.
 A roommate-finding mobile app backed by a Flask API and MySQL.
 
 **Stack:** React Native, Expo, TypeScript, Flask, MySQL, Docker
+### [Escape Plan](https://github.com/zwehein/escape-plan)
+A multiplayer browser game with real-time play, an admin dashboard, and an EC2 deployment guide.
+
+**Stack:** TypeScript, React, Vite, Node.js, WebSockets, AWS EC2
