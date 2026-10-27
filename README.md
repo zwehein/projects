@@ -26,4 +26,4 @@ A roommate-finding mobile app backed by a Flask API and MySQL.
 ### [Escape Plan](https://github.com/zwehein/escape-plan)
 A multiplayer browser game with real-time play and an admin dashboard.
 
-**Stack:** TypeScript, React, Vite, Node.js, WebSockets, AWS EC2
+**Stack:** TypeScript, React, Vite, Node.js, Socket.IO
